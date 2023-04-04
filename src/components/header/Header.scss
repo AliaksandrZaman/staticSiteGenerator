@@ -1,0 +1,53 @@
+.Header {
+    min-width: 100vh;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    background: #E1EDFF;
+}
+
+.Name {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bolder;
+    color: #05264E;
+    font-size: 17pt;
+}
+
+.RightSide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 145px;
+}
+
+.Code {
+    height: 35px;
+    width: 70px;
+    background: #3C65F5;
+    border-radius: 8px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bolder;
+    color: white;
+    margin-left: 5px;
+    font-size: 14pt;
+}
+
+.HelpB {
+    height: 35px;
+    width: 70px;
+    background: #3C65F5;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+    font-size: 14pt;
+    font-weight: bolder;
+}

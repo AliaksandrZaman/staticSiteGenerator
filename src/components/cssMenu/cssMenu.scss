@@ -1,0 +1,76 @@
+.CSSOpt{
+    height: 240px;
+    overflow-y: scroll;
+}
+
+.inputCont {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    height: 30px;
+}
+.inpText{
+    margin-left: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+}
+.rightInput{
+    margin-left: 8px;
+    display: block;
+    width: 120px;
+    padding-left: 10px;
+    border: 1px solid #3C65F5;
+    box-shadow: 0px 2px 4px -5px rgba(10, 42, 105, 0.05);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.colorInputs{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    width: 60px;
+    margin-left: 8px;
+    display: block;
+    border: 1px solid #3C65F5;
+    box-shadow: 0px 2px 4px -5px rgba(10, 42, 105, 0.05);
+    border-radius: 10px;
+    padding: 0;
+}
+
+
+::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+  
+  ::-webkit-color-swatch{
+    border: 0;
+    border-radius: 10px;
+}
+  
+  ::-moz-color-swatch,
+  ::-moz-focus-inner{
+    border: 0;
+    border-radius: 10px
+}
+  
+  ::-moz-focus-inner{
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #C0D3F0;
+    border-radius: 10px;
+}
+  
+
+::-webkit-scrollbar-thumb {
+    background: #3C65F5;
+    border-radius: 10px;
+    border: 1px solid #3C65F5;
+}

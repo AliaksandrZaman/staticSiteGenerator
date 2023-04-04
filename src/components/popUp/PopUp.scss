@@ -1,0 +1,83 @@
+.PopUp {
+    min-height: 50px;
+    min-width: 370px;
+    border-radius: 8px;
+    background: #E1EDFF;
+}
+
+.leftSide {
+    display: flex;
+    align-items: center;
+}
+
+.rightSide {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.ActiveElem {
+    margin-right: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.ActiveElem > p {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.deleteElem {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #3C65F5;
+    height: 35px;
+    width: 35px;
+}
+
+.deleteElem > img {
+    height: 25px;
+    width: 25px;
+    color: white;
+}
+
+.Top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.css {
+    height: 35px;
+    width: 60px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3C65F5;
+    border: 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.html {
+    height: 35px;
+    width: 60px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3C65F5;
+    border: 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+}
