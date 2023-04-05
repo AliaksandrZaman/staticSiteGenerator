@@ -1,0 +1,28 @@
+.infoPopUp {
+    width: 435px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: #E1EDFF;
+    color: #05264E;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px -5px rgba(10, 42, 105, 0.05);
+    border: 1px solid #3C65F5;
+}
+
+.topInfo>div {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.closeHelp{
+    height: 27px;
+    width: 27px;
+    color: white;
+}
+
+.tInfo {
+    overflow-y: scroll;
+    height: 400px;
+    padding: 5px 10px 10px 10px;
+    font-size: large;
+}

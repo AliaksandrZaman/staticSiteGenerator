@@ -246,6 +246,7 @@ function CSSMenu({ parentElement }: CSSMenuProps) {
 
     return (
         <div className="CSSOpt">
+            <div>
             <div className="height inputCont">
                 <div className="inpText">Height</div>
                 <input type="text" className="rightInput" onChange={onNewHeight} value={newHeight}/>
@@ -350,6 +351,7 @@ function CSSMenu({ parentElement }: CSSMenuProps) {
                     </div>
                 </>
             )}
+            </div>
         </div>
     )
 
